@@ -95,12 +95,18 @@ html, body {
     margin-bottom: 5px;
 }
 
-.home {
+.home, .fun-facts {
     display: flex;
     gap: 20px;
 }
 
 .portrait {
+    min-height: 460px;
+    height: 38vw;
+    border-radius: 25px;
+}
+
+.fun-facts img {
     min-height: 460px;
     height: 38vw;
     border-radius: 25px;

@@ -11,8 +11,7 @@ function Home() {
         >
             <div className="description">
                 <h1>About</h1>
-                <p>Soulvers3 is a Christian music artist who released the album <a href="https://music.apple.com/us/album/revival/1750821044">Revival</a> (2024). In the name Soulvers3, the number 3 refers to the Holy Trinity. The artist's name is a combination of "soul" and "verse", indicating a focus on faith and scripture. Given this spiritual context, the number 3 would symbolize divine perfection, as seen in the Father, Son, and Holy Spirit.</p>
-                <p>This interpretation reflects Soulvers3's ongoing focus on Christian themes, expressed throughout their music and presence on social media.</p>
+                <p>Soulvers3's musical style is best described as contemporary gospel with influences from R&B, hip-hop, and trap. The artist blends modern production techniques with spiritually focused lyrics to create music that is both sonically current and lyrically traditional.</p>
                 <h2>Music and themes</h2>
                 <p>Soulvers3 has released the following, according to Apple Music:</p>
                 <ul>
