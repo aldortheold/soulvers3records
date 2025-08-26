@@ -75,13 +75,13 @@ html, body {
     padding-right: 24px;
 }
 
-.description p a {
+.description a {
     color: var(--link-color);
     font-weight: bold;
     transition: all 0.2s ease;
 }
 
-.description p a:hover {
+.description a:hover {
     color: var(--link-color-hover);
 }
 
@@ -204,6 +204,9 @@ html, body {
     .description {
         width: 86vw;
         margin: auto;
+    }
+    .description > p, li {
+        padding-right: 0;
     }
     .description ul {
         padding: 0 7vw;
