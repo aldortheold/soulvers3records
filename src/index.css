@@ -106,12 +106,6 @@ html, body {
     border-radius: 25px;
 }
 
-.fun-facts img {
-    min-height: 460px;
-    height: 38vw;
-    border-radius: 25px;
-}
-
 .music {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -314,8 +308,11 @@ html, body {
         background: var(--link-color);
         color: #dfbe6f;
     }
-    .home {
+    .home, .fun-facts {
         flex-direction: column-reverse;
+    }
+    .fun-facts {
+        flex-direction: column;
     }
     .portrait {
         height: auto;
