@@ -6,6 +6,10 @@
     --link-color-hover: #8a6d39;
     --social-link-color: #5a4825;
     --social-link-color-hover: #685632;
+    --current-release-bg: #222222;
+    --release-menu-bg: #333333;
+    --release-menu-bg-hover: #444444;
+    --current-release-color: #e3e3e3;
 }
 
 html, body {
@@ -100,6 +104,119 @@ html, body {
     min-height: 460px;
     height: 38vw;
     border-radius: 25px;
+}
+
+.music {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+}
+
+.embed {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--current-release-bg);
+    height: calc(450px + 8vh);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.embed button {
+    font-family: "Outfit";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    font-size: 1.3rem;
+    background-color: var(--current-release-bg);
+    color: var(--current-release-color);
+    border: none;
+    border-radius: 20px 20px 0 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.embed iframe {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.current-social {
+    display: flex;
+}
+
+.social-arrow {
+    height: 40px;
+    fill: var(--current-release-color);
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-arrow.open {
+    transform: rotate(-180deg);
+}
+
+.embed iframe {
+    height: 450px;
+    border: none;
+    border-radius: 0 0 20px 20px;
+}
+
+.social-option {
+    display: flex;
+    align-items: center;
+    background-color: var(--release-menu-bg);
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.social-option:hover {
+    background-color: var(--release-menu-bg-hover);
+}
+
+.social-option svg {
+    height: 1.2rem;
+    margin-right: 10px;
+}
+
+.releases {
+    width: calc(60% - 42px);
+    background-color: var(--release-menu-bg);
+    color: var(--current-release-color);
+    border: none;
+    padding: 0;
+    margin: 8vh 0 0 35px;
+}
+
+.releases ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.music-links a {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: var(--link-color);
+    font-size: max(1.3rem, 1.6vw);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: max(10px, 1vw) max(20px, 2vw);
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.music-links a:hover {
+    background-color: var(--link-color-hover);
+}
+
+.music-links svg {
+    height: max(1.6rem, 2vw);
+    fill: #eed88e;
+    margin-right: 12px;
 }
 
 .socials {
@@ -210,5 +327,16 @@ html, body {
     }
     .description ul {
         padding: 0 7vw;
+    }
+    .embed {
+        min-width: 86vw;
+        height: 510px;
+        margin: auto;
+    }
+    .releases {
+        position: absolute;
+        top: 116px;
+        transform: translateY(-50%);
+        min-width: 86vw;
     }
 }
