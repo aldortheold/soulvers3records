@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+    --color: #45371b;
+    --link-color: #6e5727;
+    --link-color-hover: #8a6d39;
+    --social-link-color: #5a4825;
+    --social-link-color-hover: #685632;
+}
 
 html, body {
-    font-family: "Sansation";
-    background: linear-gradient(to bottom right, #f0b536, #fff393);
+    font-family: "Outfit";
+    /* background: linear-gradient(to bottom right, #f0b536, #fff393); */
+    background: linear-gradient(to bottom right, #d6af5c, #fff6b3);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #362b15;
+    color: var(--color);
     margin: 0;
 }
 
@@ -25,26 +34,26 @@ html, body {
 }
 
 .desktop-nav .logo svg {
-    height: max(1.8rem, 2.7vw);  /* 2.6rem */
+    height: max(1.8rem, 2.7vw);
 }
 
 .desktop-nav .logo {
     display: flex;
     gap: 0.6vw;
     align-items: end;
-    font-size: max(1.6rem, 2.3vw);  /* 2.2rem */
+    font-size: max(1.6rem, 2.3vw);
 }
 
 .desktop-nav a {
-    font-size: max(1.4rem, 1.9vw); /* 1.8rem */
-    color: #69542a;
+    font-size: max(1.4rem, 1.9vw);
+    color: var(--link-color);
     font-weight: bold;
     text-decoration: none;
     transition: all 0.2s ease;
 }
 
 .desktop-nav a:hover {
-    color: #96773d;
+    color: var(--link-color-hover);
     text-decoration: underline;
 }
 
@@ -53,23 +62,33 @@ html, body {
 }
 
 .description h1 {
-    font-size: 2.5rem; /* 2.5vw */
-    font-weight: normal;
+    font-size: max(1.8rem, 2.4vw);
     margin-top: 0;
 }
 
 .description h2 {
-    font-size: 1.9rem; /* 2vw */
+    font-size: max(1.6rem, 1.9vw);
 }
 
 .description p {
-    font-size: 1.4rem;  /* 1.5vw */
+    font-size: max(1.2rem, 1.4vw);
     padding-right: 24px;
 }
 
+.description p a {
+    color: var(--link-color);
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.description p a:hover {
+    color: var(--link-color-hover);
+}
+
 .description li {
-    font-size: 1.3rem;  /* 1.3vw */
+    font-size: max(1.1rem, 1.3vw);
     padding-right: 24px;
+    margin-bottom: 5px;
 }
 
 .home {
@@ -80,8 +99,24 @@ html, body {
 .portrait {
     min-height: 460px;
     height: 38vw;
-    /* box-shadow: 0 0 30px 0 black; */
     border-radius: 25px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials svg {
+    height: max(3.5rem, 4.5vw);
+    background-color: var(--social-link-color);
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 0.2s ease;
+}
+
+.socials svg:hover {
+    background-color: var(--social-link-color-hover);
 }
 
 @media only screen and (max-width: 600px) {
@@ -98,7 +133,7 @@ html, body {
         align-items: center;
         justify-content: flex-end;
         padding: 16px 7vw 24px;
-        color: #362b15;
+        color: var(--color);
         position: relative;
     }
     .hamburger {
@@ -113,7 +148,7 @@ html, body {
     .hamburger span {
         width: 28px;
         height: 3px;
-        background: #362b15;
+        background: var(--color);
         border-radius: 2px;
         transition: 0.3s;
     }
@@ -132,7 +167,7 @@ html, body {
         right: -100%;
         height: 100vh;
         width: 70%;
-        background: #bd994bf2;
+        background: #dfbe6ff2;
         display: flex;
         flex-direction: column;
         padding: 64px 20px;
@@ -147,13 +182,30 @@ html, body {
     .menu-panel a {
         text-decoration: none;
         font-size: 1.2rem;
-        color: #362b15;
+        color: var(--color);
         padding: 8px 24px;
         border-radius: 12px;
         transition: all 0.2s ease;
     }
     .menu-panel a:hover {
-        background: #362b15bc;
-        color: #e4b859;
+        background: var(--link-color);
+        color: #dfbe6f;
+    }
+    .home {
+        flex-direction: column-reverse;
+    }
+    .portrait {
+        height: auto;
+        width: 350px;
+        max-width: 86vw;
+        border-radius: 20px;
+        margin: auto;
+    }
+    .description {
+        width: 86vw;
+        margin: auto;
+    }
+    .description ul {
+        padding: 0 7vw;
     }
 }
