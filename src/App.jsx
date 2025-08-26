@@ -2,7 +2,6 @@ import { useState, useEffect }from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Music from './Music';
-import Collabs from './Collabs';
 import Contact from './Contact';
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
                         Soulvers3 Records
                     </Link>
                     <Link to="/music">Music</Link>
-                    <Link to="/collabs">Collabs</Link>
                     <Link to="/contact">Contact</Link>
                 </nav>
                 : <nav className="mobile-nav">
@@ -40,14 +38,12 @@ function App() {
                     <div className={`menu-panel ${openMenu ? "show" : ""}`}>
                         <Link to="/" onClick={() => setOpenMenu(false)}>About</Link>
                         <Link to="/music" onClick={() => setOpenMenu(false)}>Music</Link>
-                        <Link to="/collabs" onClick={() => setOpenMenu(false)}>Collabs</Link>
                         <Link to="/contact" onClick={() => setOpenMenu(false)}>Contact</Link>
                     </div>
                 </nav>}
                 <Routes>
                     <Route index element={<Home />} />
                     <Route path="/music" element={<Music />} />
-                    <Route path="/collabs" element={<Collabs />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<Home />} />
                 </Routes>

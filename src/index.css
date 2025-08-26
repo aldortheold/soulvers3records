@@ -328,15 +328,36 @@ html, body {
     .description ul {
         padding: 0 7vw;
     }
+    .music {
+        display: flex;
+        flex-direction: column;
+    }
+    .music-links {
+        flex-direction: column;
+        width: 86vw;
+        margin: auto;
+    }
+    .music-links a {
+        width: calc(100% - 1.3rem - 20px);
+        font-size: 1.3rem;
+        border-radius: 12px;
+        padding: 10px 20px;
+    }
+    .music-links svg {
+        height: 1.6rem;
+        margin-right: 10px;
+    }
     .embed {
-        min-width: 86vw;
+        width: 86vw;
         height: 510px;
         margin: auto;
     }
     .releases {
         position: absolute;
-        top: 116px;
-        transform: translateY(-50%);
+        top: 250px;
+        left: 7vw;
         min-width: 86vw;
+        transform: translateY(-50%);
+        margin-left: 0;
     }
 }
