@@ -15,7 +15,7 @@ function Contact() {
             exit={{opacity: 0}}
             transition={{duration: 0.5}}
         >
-            <img src="/portrait.png" className="portrait" />
+            <img src="/fact-pic-1.webp" className="portrait" />
             <div className="description">
                 <h1>Fun Facts</h1>
                 <h2>What's the genre of Soulvers3's music?</h2>

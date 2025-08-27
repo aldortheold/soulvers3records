@@ -97,7 +97,7 @@ html, body {
     margin-bottom: 5px;
 }
 
-.home, .fun-facts {
+.home, .fun-facts, .contact {
     display: flex;
     gap: 20px;
 }
@@ -227,19 +227,19 @@ html, body {
 
 .socials {
     display: flex;
-    gap: 20px;
+    gap: 35px;
+}
+
+.socials a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: max(1.6rem, 1.9vw);
 }
 
 .socials svg {
-    height: max(3.5rem, 4.5vw);
-    background-color: var(--social-link-color);
-    border-radius: 15px;
-    padding: 15px;
+    height: max(1.8rem, 2.2vw);
     transition: all 0.2s ease;
-}
-
-.socials svg:hover {
-    background-color: var(--social-link-color-hover);
 }
 
 @media only screen and (max-width: 600px) {
@@ -314,7 +314,7 @@ html, body {
         background: var(--social-link-color-hover);
         color: var(--button-color-light);
     }
-    .home, .fun-facts {
+    .home, .contact {
         flex-direction: column-reverse;
     }
     .fun-facts {
@@ -326,6 +326,13 @@ html, body {
         max-width: 86vw;
         border-radius: 20px;
         margin: auto;
+    }
+    .contact .portrait {
+        min-height: 86vw;
+        max-width: 86vw;
+    }
+    .socials {
+        flex-direction: column;
     }
     .description {
         width: 86vw;

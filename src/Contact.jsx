@@ -20,11 +20,21 @@ function Contact() {
                 <h1>Contact Soulvers3</h1>
                 <p>For inquiries related to music, collaborations, or media, please reach out through <a href="mailto:soulstudios20@gmail.com">email</a> or via the social media links below:</p>
                 <div className="socials">
-                    <a href="https://www.instagram.com/officialsoulvers3/"><SocialSvg social="Instagram" color="var(--button-color)" /></a>
-                    <a href="https://www.youtube.com/channel/UCJvFIExkiwMVmXp6Kud0ahw"><SocialSvg social="YouTube" color="var(--button-color)" /></a>
-                    <a href="https://www.tiktok.com/@officialsoulvers3"><SocialSvg social="TikTok" color="var(--button-color)" /></a>
+                    <a href="https://www.instagram.com/officialsoulvers3/">
+                        <SocialSvg social="Instagram" color="var(--link-color)" />
+                        Instagram
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCJvFIExkiwMVmXp6Kud0ahw">
+                        <SocialSvg social="YouTube" color="var(--link-color)" />
+                        YouTube
+                    </a>
+                    <a href="https://www.tiktok.com/@officialsoulvers3">
+                        <SocialSvg social="TikTok" color="var(--link-color)" />
+                        TikTok
+                    </a>
                 </div>
             </div>
+            <img src="/contact-pic-1.webp" className="portrait" />
         </motion.div>
     )
 }
