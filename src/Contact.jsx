@@ -17,8 +17,8 @@ function Contact() {
             transition={{duration: 0.5}}
         >
             <div className="description">
-                <h1>Contact Soulvers3</h1>
-                <p>For inquiries related to music, collaborations, or media, please reach out through <a href="mailto:soulstudios20@gmail.com">email</a> or via the social media links below:</p>
+                <h1>Soulvers3's Links</h1>
+                <p>Discover and follow Soulvers3 across social media platforms to keep up with the latest music, news, and behind-the-scenes moments.</p>
                 <div className="socials">
                     <a href="https://www.instagram.com/officialsoulvers3/">
                         <SocialSvg social="Instagram" color="var(--link-color)" />
@@ -31,6 +31,14 @@ function Contact() {
                     <a href="https://www.tiktok.com/@officialsoulvers3">
                         <SocialSvg social="TikTok" color="var(--link-color)" />
                         TikTok
+                    </a>
+                </div>
+                <h1 style={{ marginTop: "40px" }}>Contact Soulvers3</h1>
+                <p>For inquiries, collaborations, or professional requests, please reach out via email at soulstudios20@gmail.com:</p>
+                <div className="socials">
+                    <a href="https://www.tiktok.com/@officialsoulvers3">
+                        <SocialSvg social="Email" color="var(--link-color)" />
+                        Contact Soulvers3 via Email
                     </a>
                 </div>
             </div>

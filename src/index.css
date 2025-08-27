@@ -334,6 +334,13 @@ html, body {
     .socials {
         flex-direction: column;
     }
+    .socials svg {
+        height: 1.6rem;
+    }
+    .socials a {
+        gap: 8px;
+        font-size: 1.3rem;
+    }
     .description {
         width: 86vw;
         margin: auto;
