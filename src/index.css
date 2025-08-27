@@ -403,13 +403,17 @@ footer {
         flex-direction: column-reverse;
         margin-bottom: 30px;
     }
+    .home h1 {
+        font-size: 1.6rem;
+        width: 86vw;
+        margin: 10px auto 40px;
+    }
     .fun-facts {
         flex-direction: column;
         margin-bottom: 30px;
     }
     .portrait {
-        height: auto;
-        width: 350px;
+        min-height: 129vw;
         max-width: 86vw;
         border-radius: 20px;
         margin: auto;
