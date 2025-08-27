@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import SocialSvg from './components/SocialSvg';
 import { motion } from 'framer-motion';
 
 function Contact() {
+
+    useEffect(() => {
+        document.title = "Contact Soulvers3";
+    }, []);
+
     return (
         <motion.div
             className='contact'

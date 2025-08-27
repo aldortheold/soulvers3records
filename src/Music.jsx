@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import SocialSvg from './components/SocialSvg';
 import { motion } from 'framer-motion';
 
@@ -8,6 +8,10 @@ function Music() {
 
     const [release, setRelease] = useState("Warefare (EP)");
     const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+        document.title = "Music — Soulvers3 Records";
+    }, []);
 
     const releasesRef = useRef(null);
     const arrowSvg = useRef(null);
@@ -82,7 +86,7 @@ function Music() {
                         <SocialSvg social="Boomplay" color="#f4e39b" />
                         Boomplay
                     </a>
-                    <a href="https://www.boomplay.com/artists/80889796" style={{ color: "#f5e59e" }}>
+                    <a href="https://music.amazon.in/artists/B0CP4HR2S5/soulvers3" style={{ color: "#f5e59e" }}>
                         <SocialSvg social="Amazon Music" color="#f5e59e" />
                         Amazon Music
                     </a>

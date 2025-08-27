@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 function Contact() {
+
+    useEffect(() => {
+        document.title = "Fun Facts — Soulvers3 Records";
+    }, []);
+
     return (
         <motion.div
             className='fun-facts'

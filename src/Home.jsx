@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 function Home() {
+
+    useEffect(() => {
+        document.title = "Soulvers3 Records";
+    }, []);
+    
     return (
         <motion.div
             className='home'
