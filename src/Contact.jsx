@@ -36,9 +36,18 @@ function Contact() {
                 <h1 style={{ marginTop: "40px" }}>Contact Soulvers3</h1>
                 <p>For inquiries, collaborations, or professional requests, please reach out via email at soulstudios20@gmail.com:</p>
                 <div className="socials">
-                    <a href="https://www.tiktok.com/@officialsoulvers3">
+                    <a href="mailto:soulstudios20@gmail.com">
                         <SocialSvg social="Email" color="var(--link-color)" />
                         Contact Soulvers3 via Email
+                    </a>
+                </div>
+                <h1 style={{ marginTop: "40px" }}>Join Soul City!</h1>
+                <p style={{ fontStyle: "italic" }}>If you're looking to get to know Soulvers3 on a personal level and connect with other believers, followers, brothers and sisters in the Faith, and you're looking to increase your relationship with Jesus Christ,  join SoulCity today!</p>
+                <p style={{ fontStyle: "italic" }}>Sincerely, from Soulvers3.</p>
+                <div className="socials">
+                    <a href="https://discord.gg/zJAsRxJkZk">
+                        <SocialSvg social="Discord" color="var(--link-color)" />
+                        Join Server
                     </a>
                 </div>
             </div>
