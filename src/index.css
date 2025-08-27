@@ -316,6 +316,7 @@ html, body {
     }
     .home, .contact {
         flex-direction: column-reverse;
+        margin-bottom: 30px;
     }
     .fun-facts {
         flex-direction: column;
