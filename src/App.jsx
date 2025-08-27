@@ -7,7 +7,11 @@ import Contact from './Contact';
 
 function App() {
 
-    const [darkMode, setDarkMode] = useState(parseInt(localStorage.getItem("darkMode")));
+    const [darkMode, setDarkMode] = useState(
+        localStorage.getItem("darkMode") === null ? 
+        window && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        : parseInt(localStorage.getItem("darkMode"))
+    );
 
     const [openMenu, setOpenMenu] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
@@ -23,7 +27,7 @@ function App() {
     function changeMode() {
         document.body.classList.toggle("dark");
         setDarkMode(!darkMode);
-        if (darkMode) localStorage.removeItem("darkMode");
+        if (darkMode) localStorage.setItem("darkMode", "0");
         else localStorage.setItem("darkMode", "1");
     }
 
