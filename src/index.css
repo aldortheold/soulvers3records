@@ -136,6 +136,11 @@ footer {
     margin-top: 0;
 }
 
+.home h1 {
+    font-size: max(2rem, 2.5vw);
+    text-align: center;
+}
+
 .description h2 {
     font-size: max(1.6rem, 1.9vw);
 }
@@ -161,7 +166,7 @@ footer {
     margin-bottom: 5px;
 }
 
-.home, .fun-facts, .contact {
+.home .content, .fun-facts, .contact {
     display: flex;
     gap: 20px;
 }
@@ -175,6 +180,10 @@ footer {
     height: 38vw;
     box-shadow: 0 0 30px 0 var(--shadow-color);
     border-radius: 25px;
+}
+
+.home .portrait {
+    height: 32vw;
 }
 
 .music {
@@ -386,7 +395,7 @@ footer {
     .mode-switch svg {
         height: 2.4rem;
     }
-    .home, .contact {
+    .home .content, .contact {
         flex-direction: column-reverse;
         margin-bottom: 30px;
     }
