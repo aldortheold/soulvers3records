@@ -131,6 +131,10 @@ footer {
     fill: var(--link-color);
 }
 
+.mode-switch svg:hover {
+    fill: var(--link-color-hover);
+}
+
 .description h1 {
     font-size: max(1.8rem, 2.4vw);
     margin-top: 0;
