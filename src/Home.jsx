@@ -26,7 +26,7 @@ function Home() {
                     <li>Christian focus: Soulvers3's social media posts highlight biblical references such as John 14:13 and emphasize themes of faith and obedience to God.</li>
                 </ul>
             </div>
-            <img className="portrait" src="/portrait.png" />
+            <img className="portrait" src="/fact-pic-1.webp" />
         </motion.div>
     )
 }

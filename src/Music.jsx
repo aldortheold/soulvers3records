@@ -74,20 +74,20 @@ function Music() {
                     <p>Listen to Soulvers3's latest releases through the AppleMusic embed or on any of the following platforms:</p>
                 </div>
                 <div className="music-links">
-                    <a href="https://music.apple.com/us/artist/soulvers3/1718812098" style={{ color: "#eed88e" }}>
-                        <SocialSvg social="Apple Music" color="#eed88e" />
+                    <a href="https://music.apple.com/us/artist/soulvers3/1718812098" style={{ color: "var(--button-color)" }}>
+                        <SocialSvg social="Apple Music" color="var(--button-color)" />
                         Apple Music
                     </a>
-                    <a href="https://music.apple.com/us/artist/soulvers3/1718812098" style={{ color: "#f0dd94" }}>
-                        <SocialSvg social="YouTube" color="#f0dd94" />
+                    <a href="https://music.apple.com/us/artist/soulvers3/1718812098" style={{ color: "var(--button-color)" }}>
+                        <SocialSvg social="YouTube" color="var(--button-color)" />
                         YouTube
                     </a>
-                    <a href="https://www.boomplay.com/artists/80889796" style={{ color: "#f4e39b" }}>
-                        <SocialSvg social="Boomplay" color="#f4e39b" />
+                    <a href="https://www.boomplay.com/artists/80889796" style={{ color: "var(--button-color)" }}>
+                        <SocialSvg social="Boomplay" color="var(--button-color)" />
                         Boomplay
                     </a>
-                    <a href="https://music.amazon.in/artists/B0CP4HR2S5/soulvers3" style={{ color: "#f5e59e" }}>
-                        <SocialSvg social="Amazon Music" color="#f5e59e" />
+                    <a href="https://music.amazon.in/artists/B0CP4HR2S5/soulvers3" style={{ color: "var(--button-color)" }}>
+                        <SocialSvg social="Amazon Music" color="var(--button-color)" />
                         Amazon Music
                     </a>
                 </div>

@@ -15,7 +15,7 @@ function Contact() {
             exit={{opacity: 0}}
             transition={{duration: 0.5}}
         >
-            <img src="/fact-pic-1.webp" className="portrait" />
+            <img src="/portrait.png" className="portrait" />
             <div className="description">
                 <h1>Fun Facts</h1>
                 <h2>What's the genre of Soulvers3's music?</h2>
@@ -26,7 +26,7 @@ function Contact() {
                     <li>The EP <a href="https://music.apple.com/us/album/warefare-ep/1768581391">Warefare</a> likely refers to spiritual warfare, a common topic in Christian music.</li>
                     <li>The single <a href="https://music.apple.com/us/album/narrow-path-single/1738417826">Narrow Path</a> points to a biblical reference of following Jesus.</li>
                 </ul>
-                <h2>Before Soulvers3 came out as a music artist for the gospel</h2>
+                <h2>Before Soulvers3 came out as a music artist for the gospel:</h2>
                 <ul>
                     <li>Soulvers3 was a worldly YouTuber with a desire for fame and fortune. (The channel today no longer exists).</li>
                     <li>Soulvers3 had a lot of awful friendships and relationships that lead him down a path of needing God in their life.</li>

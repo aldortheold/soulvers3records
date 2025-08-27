@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 :root {
-    --color: #45371b;
-    --link-color: #6e5727;
-    --link-color-hover: #8a6d39;
-    --social-link-color: #5a4825;
-    --social-link-color-hover: #685632;
+    --color: #1d303f;
+    --link-color: #2b465b;
+    --link-color-hover: #395c77;
+    --social-link-color: #34536b;
+    --social-link-color-hover: #3c5f7a;
+    --button-color: #96cce9;
     --current-release-bg: #222222;
     --release-menu-bg: #333333;
     --release-menu-bg-hover: #444444;
@@ -15,7 +16,7 @@
 html, body {
     font-family: "Outfit";
     /* background: linear-gradient(to bottom right, #f0b536, #fff393); */
-    background: linear-gradient(to bottom right, #d6af5c, #fff6b3);
+    background: linear-gradient(to bottom right, #83c0e1, #a9d8f0);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--color);
@@ -100,9 +101,14 @@ html, body {
     gap: 20px;
 }
 
+.fun-facts {
+    gap: 35px;
+}
+
 .portrait {
     min-height: 460px;
     height: 38vw;
+    box-shadow: 0 0 30px 0 var(--color);
     border-radius: 25px;
 }
 
@@ -215,7 +221,6 @@ html, body {
 
 .music-links svg {
     height: max(1.6rem, 2vw);
-    fill: #eed88e;
     margin-right: 12px;
 }
 

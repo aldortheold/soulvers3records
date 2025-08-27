@@ -1,4 +1,4 @@
-export default function SocialSvg({ social, color="var(--color)" }) {
+export default function SocialSvg({ social, color="var(--button-color)" }) {
     switch (social) {
         case "YouTube":
             return (
