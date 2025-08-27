@@ -320,6 +320,7 @@ html, body {
     }
     .fun-facts {
         flex-direction: column;
+        margin-bottom: 30px;
     }
     .portrait {
         height: auto;
