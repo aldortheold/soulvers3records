@@ -329,7 +329,7 @@ html, body {
     }
     .contact .portrait {
         min-height: 86vw;
-        max-width: 86vw;
+        min-width: 86vw;
     }
     .socials {
         flex-direction: column;
