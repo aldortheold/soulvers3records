@@ -129,7 +129,7 @@ footer {
 .mode-switch {
     position: absolute;
     top: 15px;
-    right: 55px;
+    right: 70px;
     background-color: transparent;
     border: none;
     transition: all 0.3s ease;
