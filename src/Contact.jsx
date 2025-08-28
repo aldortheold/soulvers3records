@@ -42,7 +42,7 @@ function Contact() {
                     </a>
                 </div>
                 <h1 style={{ marginTop: "40px" }}>Join SoulCity!</h1>
-                <p style={{ fontStyle: "italic" }}>If you're looking to get to know Soulvers3 on a personal level and connect with other believers, followers, brothers and sisters in the Faith, and you're looking to increase your relationship with Jesus Christ,  join SoulCity today!</p>
+                <p style={{ fontStyle: "italic" }}>If you're looking to get to know Soulvers3 on a personal level and connect with other believers, followers, brothers and sisters in the Faith, and you're looking to increase your relationship with Jesus Christ,&nbsp;&nbsp;join SoulCity today!</p>
                 <p style={{ fontStyle: "italic" }}>Sincerely, from Soulvers3.</p>
                 <div className="socials">
                     <a href="https://discord.gg/zJAsRxJkZk">
