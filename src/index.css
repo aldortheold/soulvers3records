@@ -272,7 +272,7 @@ footer {
 }
 
 .releases {
-    width: calc(60% - 42px);
+    width: calc(100% - 70px);
     background-color: var(--release-menu-bg);
     color: var(--current-release-color);
     border: none;
@@ -477,13 +477,10 @@ footer {
         width: 86vw;
         height: 510px;
         margin: auto;
+        margin-bottom: 20px;
     }
     .releases {
-        position: absolute;
-        top: 250px;
-        left: 7vw;
         min-width: 86vw;
-        transform: translateY(-50%);
-        margin-left: 0;
+        margin-left: 7vw;
     }
 }
