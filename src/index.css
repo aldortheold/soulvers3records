@@ -70,6 +70,10 @@ main {
     padding: 20px 35px 0;
 }
 
+.home, .fun-facts, .music, .contact {
+    margin-top: calc(40px + max(1.8rem, 2.7vw) + 1.5vw);
+}
+
 footer {
     width: 86vw;
     color: var(--link-color);
@@ -82,10 +86,16 @@ footer {
 }
 
 .desktop-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     gap: 2vw;
     align-items: end;
-    margin-bottom: calc(1.5vw + 15px);
+    width: 100vw;
+    background-color: var(--bg-1);
+    box-shadow: 0 0 10px 0 var(--shadow-color);
+    padding: 20px 0 20px 35px;
 }
 
 .desktop-nav .logo svg {
@@ -119,7 +129,7 @@ footer {
 .mode-switch {
     position: absolute;
     top: 15px;
-    right: 35px;
+    right: 55px;
     background-color: transparent;
     border: none;
     transition: all 0.3s ease;
@@ -143,6 +153,7 @@ footer {
 .home h1 {
     font-size: max(2rem, 2.5vw);
     text-align: center;
+    margin-top: 0;
 }
 
 .description h2 {
@@ -331,18 +342,28 @@ footer {
         flex-direction: column;
         padding: 0;
     }
-    .menu {
-        display: none;
+    .home, .fun-facts, .music, .contact {
+        margin-top: 80px;
     }
     .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: red;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        padding: 16px 7vw 24px;
+        height: 20px;
+        width: 100vw;
+        background-color: var(--bg-1);
         color: var(--color);
-        position: relative;
+        box-shadow: 0 0 10px 0 var(--shadow-color);
+        padding: 16px 7vw 24px;
     }
     .hamburger {
+        position: absolute;
+        top: 15px;
+        left: calc(100vw - 28px - 7vw);
         background: none;
         border: none;
         cursor: pointer;
@@ -403,7 +424,7 @@ footer {
         left: 7vw;
     }
     .mode-switch svg {
-        height: 2.4rem;
+        height: 2.2rem;
     }
     .home .content, .contact {
         flex-direction: column-reverse;
