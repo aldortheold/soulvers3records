@@ -18,15 +18,16 @@ function Home() {
             <h1>Soulvers3 — Gospel Artist</h1>
             <div className="content">
                 <div className="description">
-                    <h2>About</h2>
-                    <p>Soulvers3's musical style is best described as contemporary gospel with influences from R&B, hip-hop, and trap. The artist blends modern production techniques with spiritually focused lyrics to create music that is both sonically current and lyrically traditional.</p>
-                    <h2>Music and themes</h2>
-                    <p>Soulvers3 has released the following, according to Apple Music:</p>
+                    <h2>Who is Soulvers3?</h2>
+                    <p>Soulvers3 is a Christian and gospel music artist who has been releasing tracks since at least 2024. He began his musical journey after converting to Christianity, stating that he decided to be obedient to God above all else</p>
+                    <h2>Soulvers3 is known for:</h2>
                     <ul>
-                        <li>Albums and EPs: The artist released the album <a href="https://music.apple.com/us/album/revival/1750821044">Revival</a> and the EP <a href="https://music.apple.com/us/album/warefare-ep/1768581391">Warefare</a>.</li>
-                        <li>Key tracks: <a href="https://music.apple.com/us/album/stay-with-me-single/1725736451">Stay With Me</a>, <a href="https://music.apple.com/us/album/holy-waters-single/1744172315">Holy Waters</a>, <a href="https://music.apple.com/us/album/seasons-single/1756737119">Seasons</a>, <a href="https://music.apple.com/us/album/dont-leave-single/1746826949">Don't Leave</a> and <a href="https://music.apple.com/us/album/narrow-path-single/1738417826">Narrow Path</a>.</li>
-                        <li>Christian focus: Soulvers3's social media posts highlight biblical references such as John 14:13 and emphasize themes of faith and obedience to God.</li>
+                        <li>Genre: Soulvers3's music is Christian and gospel, a style that draws on his faith and incorporates elements from both contemporary and traditional gospel music.</li>
+                        <li>Themes: His work often focuses on his relationship with God, faith, and spirituality. This is evident in song titles like "Revival," "Warefare," and "Holy Waters"</li>
+                        <li>His Production: Soulvers3 has featured other musicians in his work, such as the beat provided by @x_gamer9588 on his 2024 Revival album.</li>
                     </ul>
+                    <h2>Musical style</h2>
+                    <p>Soulvers3's musical style is best described as contemporary gospel with influences from R&B, hip-hop, and trap. The artist blends modern production techniques with spiritually focused lyrics to create music that is both sonically current and lyrically traditional.</p>
                 </div>
                 <img className="portrait" src="/portrait.png" />
             </div>
