@@ -71,7 +71,7 @@ function App() {
                         <Route index element={<Home />} />
                         <Route path="/facts" element={<FunFacts />} />
                         <Route path="/music" element={<Music darkMode={darkMode} />} />
-                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/contact" element={<Contact width={width} />} />
                         <Route path="*" element={<Home />} />
                     </Routes>
                 </div>
