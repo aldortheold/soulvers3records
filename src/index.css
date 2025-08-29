@@ -342,8 +342,11 @@ footer {
         flex-direction: column;
         padding: 0;
     }
-    .home, .fun-facts, .music, .contact {
+    .home {
         margin-top: 80px;
+    }
+    .fun-facts, .music, .contact {
+        margin-top: 100px;
     }
     .mobile-nav {
         position: fixed;
@@ -363,7 +366,7 @@ footer {
     .hamburger {
         position: absolute;
         top: 15px;
-        left: calc(100vw - 28px - 7vw);
+        left: calc(100vw - 40px - 7vw);
         background: none;
         border: none;
         cursor: pointer;
