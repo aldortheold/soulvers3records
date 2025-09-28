@@ -25,7 +25,7 @@ function Home({ width }) {
                     <ul>
                         <li>Genre: Soulvers3's music is Christian and gospel, a style that draws on his faith and incorporates elements from both contemporary and traditional gospel music.</li>
                         <li>Themes: His work often focuses on his relationship with God, faith, and spirituality. This is evident in song titles like "Revival," "Warefare," and "Holy Waters"</li>
-                        <li>His Production: Soulvers3 has featured other musicians in his work, such as the beat provided by @x_gamer9588 on his 2024 Revival album.</li>
+                        <li>His Production: Soulvers3 has featured other musicians in his work, such as the beat provided by @Ionseetheproblem on his 2024 Revival album.</li>
                     </ul>
                     <h2 style={{ marginTop: "40px" }}>Soulvers3's Links</h2>
                     <p>Discover and follow Soulvers3 across social media platforms to keep up with the latest music, news, and behind-the-scenes moments.</p>
