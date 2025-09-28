@@ -34,22 +34,8 @@ function Contact({ width }) {
                         Join Server
                     </a>
                 </div>
-                <h1 style={{ marginTop: "40px" }}>Soulvers3's Links</h1>
-                <p>Discover and follow Soulvers3 across social media platforms to keep up with the latest music, news, and behind-the-scenes moments.</p>
-                <div className="socials" style={width >= 600 ? { marginBottom: "40px" } : {}}>
-                    <a href="https://www.instagram.com/officialsoulvers3/">
-                        <SocialSvg social="Instagram" color="var(--link-color)" />
-                        Instagram
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCJvFIExkiwMVmXp6Kud0ahw">
-                        <SocialSvg social="YouTube" color="var(--link-color)" />
-                        YouTube
-                    </a>
-                    <a href="https://www.tiktok.com/@officialsoulvers3">
-                        <SocialSvg social="TikTok" color="var(--link-color)" />
-                        TikTok
-                    </a>
-                </div>
+                <h1 style={{ marginTop: "40px" }}>Donation Center</h1>
+                <p style={{ fontStyle: "italic" }}>Top donors will be listed in a few hours!</p>
             </div>
             <img src="/contact-pic-1.webp" className="portrait" />
         </motion.div>

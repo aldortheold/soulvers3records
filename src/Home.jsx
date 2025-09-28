@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
+import SocialSvg from './components/SocialSvg';
 import { motion } from 'framer-motion';
 
-function Home() {
+function Home({ width }) {
 
     useEffect(() => {
         document.title = "Soulvers3 Records";
@@ -15,7 +16,7 @@ function Home() {
             exit={{opacity: 0}}
             transition={{duration: 0.5}}
         >
-            <h1>Soulvers3 — Gospel Artist</h1>
+            <h1 className="main-title">Soulvers3 — Gospel Artist</h1>
             <div className="content">
                 <div className="description">
                     <h2>Who is Soulvers3?</h2>
@@ -26,8 +27,22 @@ function Home() {
                         <li>Themes: His work often focuses on his relationship with God, faith, and spirituality. This is evident in song titles like "Revival," "Warefare," and "Holy Waters"</li>
                         <li>His Production: Soulvers3 has featured other musicians in his work, such as the beat provided by @x_gamer9588 on his 2024 Revival album.</li>
                     </ul>
-                    <h2>Musical style</h2>
-                    <p>Soulvers3's musical style is best described as contemporary gospel with influences from R&B, hip-hop, and trap. The artist blends modern production techniques with spiritually focused lyrics to create music that is both sonically current and lyrically traditional.</p>
+                    <h2 style={{ marginTop: "40px" }}>Soulvers3's Links</h2>
+                    <p>Discover and follow Soulvers3 across social media platforms to keep up with the latest music, news, and behind-the-scenes moments.</p>
+                    <div className="socials" style={width >= 600 ? { marginBottom: "40px" } : {}}>
+                        <a href="https://www.instagram.com/officialsoulvers3/">
+                            <SocialSvg social="Instagram" color="var(--link-color)" />
+                            Instagram
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCJvFIExkiwMVmXp6Kud0ahw">
+                            <SocialSvg social="YouTube" color="var(--link-color)" />
+                            YouTube
+                        </a>
+                        <a href="https://www.tiktok.com/@officialsoulvers3">
+                            <SocialSvg social="TikTok" color="var(--link-color)" />
+                            TikTok
+                        </a>
+                    </div>
                 </div>
                 <img className="portrait" src="/portrait.png" />
             </div>

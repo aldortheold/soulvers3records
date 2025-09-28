@@ -68,7 +68,7 @@ function App() {
                         </button>
                     </nav>}
                     <Routes>
-                        <Route index element={<Home />} />
+                        <Route index element={<Home width={width} />} />
                         <Route path="/facts" element={<FunFacts />} />
                         <Route path="/music" element={<Music darkMode={darkMode} />} />
                         <Route path="/contact" element={<Contact width={width} />} />
