@@ -35,7 +35,9 @@ function Contact({ width }) {
                     </a>
                 </div>
                 <h1 style={{ marginTop: "40px" }}>Donation Center</h1>
-                <p style={{ fontStyle: "italic" }}>Top donors will be listed in a few hours!</p>
+                <h2>Support the Mission – Donate to Soulvers3</h2>
+                <p style={{ fontStyle: "italic" }}>Join us in uplifting faith through art. Your donations help Soulvers3, a Christian artist, continue sharing the Gospel through music and creativity.</p>
+                <p style={{ fontStyle: "italic" }}>"Each of you should use whatever gift you have received to serve others." – 1 Peter 4:10.</p>
             </div>
             <img src="/contact-pic-1.webp" className="portrait" />
         </motion.div>
