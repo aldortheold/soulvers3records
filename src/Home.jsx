@@ -44,7 +44,7 @@ function Home({ width }) {
                         </a>
                     </div>
                 </div>
-                <img className="portrait" src="/portrait.png" />
+                <img className="portrait" src="/about-pic-2.webp" />
             </div>
         </motion.div>
     )

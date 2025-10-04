@@ -70,7 +70,7 @@ main {
     padding: 20px 35px 0;
 }
 
-.home, .fun-facts, .music, .contact {
+.home, .history, .music, .contact {
     margin-top: calc(40px + max(1.8rem, 2.7vw) + 1.5vw);
 }
 
@@ -181,18 +181,18 @@ footer {
     margin-bottom: 5px;
 }
 
-.home .content, .fun-facts, .contact {
+.home .content, .history, .contact {
     display: flex;
     gap: 20px;
 }
 
-.fun-facts {
+.history {
     gap: 35px;
 }
 
 .portrait {
     min-height: 460px;
-    height: 38vw;
+    height: 36vw;
     box-shadow: 0 0 30px 0 var(--shadow-color);
     border-radius: 25px;
 }
@@ -345,7 +345,7 @@ footer {
     .home {
         margin-top: 80px;
     }
-    .fun-facts, .music, .contact {
+    .history, .music, .contact {
         margin-top: 100px;
     }
     .mobile-nav {
@@ -438,7 +438,7 @@ footer {
         width: 86vw;
         margin: 10px auto 40px;
     }
-    .fun-facts {
+    .history {
         flex-direction: column;
         margin-bottom: 30px;
     }
