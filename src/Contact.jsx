@@ -30,7 +30,7 @@ function Contact({ width }) {
                 <p style={{ fontStyle: "italic" }}>Join us in uplifting faith through art. Your donations help Soulvers3, a Christian artist, continue sharing the Gospel through music and creativity.</p>
                 <p style={{ fontStyle: "italic" }}>"Each of you should use whatever gift you have received to serve others." – 1 Peter 4:10.</p>
             </div>
-            <img src="/contact-pic-1.webp" className="portrait" />
+            <img src="/contact-pic-2.webp" className="portrait" />
         </motion.div>
     )
 }

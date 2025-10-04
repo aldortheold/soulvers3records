@@ -44,7 +44,7 @@ function Music({ darkMode }) {
             transition={{duration: 0.5}}
         >
             <div className="content">
-                <img src="/music-pic-1.webp" className="portrait" />
+                <img src="/music-pic-2.webp" className="portrait" />
                 <div>
                     <div className="description">
                         <h1>Music</h1>

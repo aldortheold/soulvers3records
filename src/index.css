@@ -176,7 +176,7 @@ footer {
 }
 
 .description li {
-    font-size: max(1.1rem, 1.3vw);
+    font-size: max(1.2rem, 1.4vw);
     padding-right: 24px;
     margin-bottom: 5px;
 }
