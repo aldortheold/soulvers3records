@@ -38,7 +38,7 @@ function Contact({ width }) {
                 <div className="socials">
                     <a href="https://cash.app/$Soulvers3">
                         <SocialSvg social="Cash App" color="var(--link-color)" />
-                        Donate Via Cash App
+                        Donate Via Cash App:
                     </a>
                 </div>
             </div>
