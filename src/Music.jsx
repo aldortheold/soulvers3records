@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from 'react';
 import SocialSvg from './components/SocialSvg';
 import { motion } from 'framer-motion';
 
-const releases = ["Praise 127 (Single)", "Warefare (EP)", "Revival (Album)", "Stay With Me (Single)", "Holy Waters (Single)", "Seasons (Single)", "Don't Leave (Single)", "Narrow Path (Single)"]
+const releases = ["Revival (Album)", "Praise 127 (Single)", "Warefare (EP)", "Stay With Me (Single)", "Holy Waters (Single)", "Seasons (Single)", "Don't Leave (Single)", "Narrow Path (Single)"]
 
 function Music({ darkMode }) {
 
-    const [release, setRelease] = useState("Praise 127 (Single)");
+    const [release, setRelease] = useState("Revival (Album)");
     const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
@@ -84,9 +84,9 @@ function Music({ darkMode }) {
                     </div>
                     <svg ref={arrowSvg} className="social-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-360 280-560h400L480-360Z"/></svg>
                 </button>
+                {release === "Revival (Album)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/revival/1750821044${darkMode ? "?theme=dark" : ""}`} />}
                 {release === "Praise 127 (Single)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/praise-127/1837378344${darkMode ? "?theme=dark" : ""}`} />}
                 {release === "Warefare (EP)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/warefare-ep/1768581391${darkMode ? "?theme=dark" : ""}`} />}
-                {release === "Revival (Album)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/revival/1750821044${darkMode ? "?theme=dark" : ""}`} />}
                 {release === "Stay With Me (Single)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/stay-with-me-single/1725736451${darkMode ? "?theme=dark" : ""}`} />}
                 {release === "Holy Waters (Single)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/holy-waters-single/1744172315${darkMode ? "?theme=dark" : ""}`} />}
                 {release === "Seasons (Single)" && <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={`https://embed.music.apple.com/us/album/seasons-single/1756737119${darkMode ? "?theme=dark" : ""}`} />}
