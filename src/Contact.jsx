@@ -36,13 +36,13 @@ function Contact({ width }) {
                 <p style={{ fontStyle: "italic" }}>Your donations help Soulvers3, a Christian artist, continue sharing the Gospel to others through music and creativity.</p>
                 <p style={{ fontStyle: "italic" }}>"Each of you should use whatever gift you have received to serve others." – 1 Peter 4:10.</p>
                 <div className="socials">
-                    <a href="https://cash.app/$Soulvers3">
+                    <a href="https://cash.app/$Soulvers3" target="_blank">
                         <SocialSvg social="Cash App" color="var(--link-color)" />
                         Donate Via Cash App:
                     </a>
                 </div>
             </div>
-            <img src="/contact-pic-2.webp" className="portrait" />
+            <img src="/contact-pic-3.webp" className="portrait" />
         </motion.div>
     )
 }
