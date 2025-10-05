@@ -18,7 +18,7 @@ function Contact({ width }) {
         >
             <div className="description">
                 <h1 style={width >= 600 ? {} : { marginTop: "20px" }}>
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C14.1588 20.0658 10.9183 19.5829 7.6677 16.3323C4.41713 13.0817 3.93421 9.84122 4.00655 7.93309C4.04952 6.7996 4.7008 5.77423 5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617Z" fill="var(--color)"></path></g></svg>
+                    <svg fill="var(--color)" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 35.924 35.924" xmlSpace="preserve"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M34.844,11.369c-0.135-0.114-0.264-0.233-0.42-0.323l-14.961-8.64c-0.928-0.536-2.072-0.536-3,0L1.5,11.045 c-0.156,0.09-0.285,0.209-0.42,0.323l16.883,9.822L34.844,11.369z M16.813,17.604l-4.182-3.553 c-0.639-0.544-0.719-1.501-0.174-2.142c0.543-0.64,1.502-0.717,2.143-0.174l1.678,1.425V7.042c0-0.838,0.68-1.519,1.521-1.519 c0.838,0,1.52,0.68,1.52,1.519v6.118l1.68-1.427c0.287-0.242,0.635-0.361,0.982-0.361c0.432,0,0.857,0.182,1.156,0.536 c0.547,0.641,0.467,1.599-0.174,2.142l-4.184,3.553C18.213,18.084,17.379,18.085,16.813,17.604z M35.924,14.21v16.71 c0,1.657-1.342,3-3,3H3c-1.656,0-3-1.343-3-3V14.21l9.283,5.401L2.047,30.465c-0.459,0.688-0.273,1.621,0.416,2.08 c0.256,0.17,0.545,0.252,0.83,0.252c0.486,0,0.961-0.233,1.25-0.668l7.334-11c0-0.002,0.002-0.004,0.002-0.006l5.328,3.1 c0.234,0.137,0.494,0.204,0.756,0.204c0.26,0,0.521-0.067,0.754-0.204l5.328-3.1c0.002,0.002,0.002,0.004,0.004,0.006l7.332,11 c0.289,0.435,0.768,0.668,1.25,0.668c0.285,0,0.574-0.082,0.83-0.252c0.688-0.459,0.875-1.392,0.416-2.08L26.645,19.61 L35.924,14.21z"></path></g></g></svg>
                     Contact Soulvers3
                 </h1>
                 <p>For inquiries, collaborations, or professional requests, please reach out via email at soulstudios20@gmail.com:</p>
@@ -33,8 +33,14 @@ function Contact({ width }) {
                     Donation Center
                 </h1>
                 <h2>Support the Mission – Donate to Soulvers3</h2>
-                <p style={{ fontStyle: "italic" }}>Join us in uplifting faith through art. Your donations help Soulvers3, a Christian artist, continue sharing the Gospel through music and creativity.</p>
+                <p style={{ fontStyle: "italic" }}>Your donations help Soulvers3, a Christian artist, continue sharing the Gospel to others through music and creativity.</p>
                 <p style={{ fontStyle: "italic" }}>"Each of you should use whatever gift you have received to serve others." – 1 Peter 4:10.</p>
+                <div className="socials">
+                    <a href="https://cash.app/$Soulvers3">
+                        <SocialSvg social="Cash App" color="var(--link-color)" />
+                        Donate Via Cash App
+                    </a>
+                </div>
             </div>
             <img src="/contact-pic-2.webp" className="portrait" />
         </motion.div>
