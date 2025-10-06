@@ -16,7 +16,7 @@ function Contact() {
             exit={{opacity: 0}}
             transition={{duration: 0.5}}
         >
-            <img src="/fact-pic-2.webp" className="portrait" />
+            <img src="/fact-pic-3.webp" className="portrait" />
             <div className="description">
                 <h1>History</h1>
                 <h2>

@@ -42,7 +42,7 @@ function Contact({ width }) {
                     </a>
                 </div>
             </div>
-            <img src="/contact-pic-3.webp" className="portrait" />
+            <img src="/contact-pic-4.webp" className="portrait" />
         </motion.div>
     )
 }
