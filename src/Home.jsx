@@ -23,7 +23,7 @@ function Home({ width }) {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M424-320q0-81 14.5-116.5T500-514q41-36 62.5-62.5T584-637q0-41-27.5-68T480-732q-51 0-77.5 31T365-638l-103-44q21-64 77-111t141-47q105 0 161.5 58.5T698-641q0 50-21.5 85.5T609-475q-49 47-59.5 71.5T539-320H424Zm56 240q-33 0-56.5-23.5T400-160q0-33 23.5-56.5T480-240q33 0 56.5 23.5T560-160q0 33-23.5 56.5T480-80Z"/></svg>
                         Who is Soulvers3?
                     </h2>
-                    <p>Soulvers3 is a Christian and gospel music artist who has been releasing tracks since at least 2024. He began his musical journey after converting to Christianity, stating that he decided to be obedient to God above all else</p>
+                    <p>Soulvers3 is a Christian and gospel music artist who has been releasing tracks since at least 2024. He began his musical journey after converting to Christianity, stating that he decided to be obedient to God above all else.</p>
                     <h2>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="var(--color)" d="M35 12a7 7 0 0 0-7-7c-1.167 0-2.265.29-3.232.794c-2.082-2.827-5.425-4.669-9.205-4.669c-5.132 0-9.475 3.38-10.923 8.036A5.997 5.997 0 0 0 0 15a5.996 5.996 0 0 0 5.021 5.913C5.237 24.862 8.498 28 12.5 28c2.176 0 4.13-.933 5.5-2.413A7.472 7.472 0 0 0 23.5 28c4.143 0 7.5-3.357 7.5-7.5a7.5 7.5 0 0 0-.289-2.045A7.001 7.001 0 0 0 35 12z"></path><circle fill="var(--color)" cx="4" cy="31" r="3"></circle></g></svg>
                         Soulvers3 is known for:
