@@ -53,7 +53,7 @@ function Home({ width }) {
                         </a>
                         <a href="https://x.com/Soulvers3" target="_blank">
                             <SocialSvg social="X" color="var(--link-color)" />
-                            X (Twitter)
+                            X (Twitter)&nbsp;
                         </a>
                     </div>
                 </div>
